@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Portfolio</title>
 </head>
 <body>
-<div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      <span class="fs-4">Sidebar</span>
-    </a>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="index.html" class="nav-link active" aria-current="page">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="projecten.html" class="nav-link link-dark">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-          Projecten
-        </a>
-      </li>
-      <li>
-        <a href="contact.html" class="nav-link link-dark">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
-          Contact
-        </a>
-      </li>
-    </ul>
-    <hr>
-  </div>
-  <div class="container text-end">
-  <div class="row">
-    <div class="col-sm-2"><img src="img/BKomduur_avatar.PNG" alt="github avatar">
-        <h2>Dit is een placeholder</h2>
-    </div>
-    <div class="col-sm-8">
-        <h3>Welkom bij mijn portfolio!</h3>
-        <p>Gebruik de navigatiebar <b>links</b> om de verschillende paginas te bekijken.</p>
-        <p>Ik ben Berber Komduur</p>
-        <p>Ik ben 17 (04/06/2007) jaar oud</p>
-        <p>1e jaars Software Developer student</p>
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+        <div class="d-flex flex-column align-items-sm-start px-3 pt-2 text-dark min-vh-100">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <span class="fs-4">Sidebar</span>
+          </a>
+          <hr>
+          <ul class="nav nav-pills flex-column mb-auto w-100">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link link active">Home</a>
+            </li>
+            <li>
+              <a href="projecten.html" class="nav-link link-dark">Projecten</a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link link-dark">Contact</a>
+            </li>
+          </ul>
+          <hr>
+        </div>
+      </div>
+
+      <div class="col py-3">
+        <div class="row">
+          <div class="col-md-4 text-center mb-3">
+            <img src="img/BKomduur_avatar.PNG" alt="github avatar" class="img-fluid rounded">
+            <h2 class="mt-3">Dit is een placeholder</h2>
+          </div>
+          <div class="col-md-8">
+            <h3>Welkom bij mijn portfolio!</h3>
+            <p>Gebruik de navigatiebar <b>links</b> om de verschillende pagina's te bekijken.</p>
+            <p>Ik ben Berber Komduur</p>
+            <p>Ik ben 17 (04/06/2007) jaar oud</p>
+            <p>1e jaars Software Developer student</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
