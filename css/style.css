@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Global typography and layout */
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: #212529;
+}
+
+/* Sidebar */
+.sidebar {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.nav-link.active {
+  background-color: #0d6efd;
+  color: #fff !important;
+}
+
+/* Profile image */
+.profile-img {
+  max-width: 220px;
+  border-radius: 12px;
+}
+
+/* Skill cards */
+.skill-card {
+  box-shadow: 0 6px 18px rgba(13,110,253,0.06);
+}
+
+/* Images responsive fallback */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Small tweaks */
+.card-title { font-weight: 600; }
