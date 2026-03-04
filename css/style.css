@@ -36,3 +36,7 @@ img {
 
 /* Small tweaks */
 .card-title { font-weight: 600; }
+
+/* Badge group spacing for Bootstrap badges */
+.label-badges { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+.label-badges .badge { margin-bottom: 0.25rem; }

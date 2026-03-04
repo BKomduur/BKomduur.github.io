@@ -57,50 +57,117 @@
             <div>
               <h1 class="h3 mb-2">Projecten</h1>
               <p class="lead mb-3">Benieuwd naar een project? <a href="mailto:302770998@student.rocmondriaan.nl">Vraag het ZIP bestand op!</a> Bepaalde projecten hebben een database.</p>
+              <div class="d-flex flex-wrap gap-2 mb-3" id="filterBar">
+                <button class="btn btn-sm btn-outline-primary" data-filter="all">Alle</button>
+                <button class="btn btn-sm btn-outline-secondary" data-filter="html">HTML</button>
+                <button class="btn btn-sm btn-outline-secondary" data-filter="css">CSS</button>
+                <button class="btn btn-sm btn-outline-secondary" data-filter="javascript">JavaScript</button>
+                <button class="btn btn-sm btn-outline-secondary" data-filter="php">PHP</button>
+                <button class="btn btn-sm btn-outline-secondary" data-filter="sql">SQL</button>
+                <button class="btn btn-sm btn-outline-secondary" data-filter="python">Python</button>
+                <button class="btn btn-sm btn-outline-secondary" data-filter="renpy">Ren'py</button>
+                <button class="btn btn-sm btn-outline-secondary" data-filter="bootstrap">Bootstrap</button>
+                <button class="btn btn-sm btn-outline-secondary" data-filter="nextjs">Next.js</button>
+                <button class="btn btn-sm btn-outline-secondary" data-filter="tailwind">Tailwind CSS</button>
+              </div>
             </div>
           </div>
 
           <section class="mt-5">
             <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-3">
               <div class="col">
-                <div class="card h-auto">
+                <div class="card h-auto" data-tech="html css javascript">
                   <img src="img/hoger_lager.png" class="card-img-top" alt="Hoger Lager">
                   <div class="card-body">
                     <h5 class="card-title">Hoger Lager</h5>
-                    <p class="card-text">Hoger Lager is een raadspel met 2 dobbelstenen. De speler speelt tegen een computer en moet raden of hij of zij hoger gooit dan de computer. Het thema is geïnspireerd door het spel Pac-Man. Hoger Lager is gemaakt met HTML, CSS en Javascript.
+                    <div class="label-badges mb-2">
+                      <span class="badge rounded-pill bg-danger">HTML</span>
+                      <span class="badge rounded-pill bg-primary">CSS</span>
+                      <span class="badge rounded-pill bg-warning text-dark">JavaScript</span>
+                    </div>
+                    <p class="card-text">Hoger Lager is een raadspel met 2 dobbelstenen. De speler speelt tegen een computer en moet raden of hij of zij hoger gooit dan de computer. Het thema is geïnspireerd door het spel Pac-Man. 
 
                     </p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card h-auto">
+                <div class="card h-auto" data-tech="html css javascript">
                   <img src="img/bke.png" class="card-img-top" alt="Build a game">
                   <div class="card-body">
                     <h5 class="card-title">Build a game</h5>
-                    <p class="card-text">Build a game is een website met 3 spellen er op. Mijn onderdeel was boter kaas en eieren. Hierbij is HTML, CSS en Javascript gebruikt.
+                    <div class="label-badges mb-2">
+                      <span class="badge rounded-pill bg-danger">HTML</span>
+                      <span class="badge rounded-pill bg-primary">CSS</span>
+                      <span class="badge rounded-pill bg-warning text-dark">JavaScript</span>
+                    </div>
+                    <p class="card-text">Build a game is een website met 3 spellen er op. Mijn onderdeel was boter kaas en eieren.
 
                     </p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card h-auto">
+                <div class="card h-auto" data-tech="html css php sql">
                   <img src="img/pcparts.PNG" class="card-img-top" alt="Review your experience">
                   <div class="card-body">
                     <h5 class="card-title">Review your experience</h5>
-                    <p class="card-text">Review your experience is een website waar mensen reviews over producten kunnen achterlaten. Hierbij is HTML, CSS, PHP en SQL gebruikt.
+                    <div class="label-badges mb-2">
+                      <span class="badge rounded-pill bg-danger">HTML</span>
+                      <span class="badge rounded-pill bg-primary">CSS</span>
+                      <span class="badge rounded-pill bg-secondary">PHP</span>
+                      <span class="badge rounded-pill bg-success">SQL</span>
+                    </div>
+                    <p class="card-text">Review your experience is een website waar mensen reviews over producten kunnen achterlaten.
 
                     </p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card h-auto">
-                  <img src="img/gamedesign_2.PNG" class="card-img-top" alt="Review your experience">
+                <div class="card h-auto" data-tech="renpy python">
+                  <img src="img/gamedesign_2.PNG" class="card-img-top" alt="Build a game">
                   <div class="card-body">
                     <h5 class="card-title">Build A Game</h5>
-                    <p class="card-text">Bij Agile Game productie heb ik gewerkt aan een gameconcept. Dit is uiteindelijk een prototype geworden. Dit is gemaakt in Ren'py, wat op python gebouwd is.
+                    <div class="label-badges mb-2">
+                      <span class="badge rounded-pill bg-secondary">Ren'py</span>
+                      <span class="badge rounded-pill bg-info text-dark">Python</span>
+                    </div>
+                    <p class="card-text">Bij Agile Game productie heb ik gewerkt aan een gameconcept. Dit is uiteindelijk een prototype geworden.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-auto" data-tech="html php bootstrap sql">
+                  <img src="img/budgetbuddy.PNG" class="card-img-top" alt="Budgetbuddy">
+                  <div class="card-body">
+                    <h5 class="card-title">Budgetbuddy</h5>
+                    <div class="label-badges mb-2">
+                      <span class="badge rounded-pill bg-danger">HTML</span>
+                      <span class="badge rounded-pill bg-secondary">PHP</span>
+                      <span class="badge rounded-pill bg-dark">Bootstrap</span>
+                      <span class="badge rounded-pill bg-success">SQL</span>
+                    </div>
+                    <p class="card-text">Met de Budgetbuddy kunnen jongvolwassenen hun uitgaven en inkomsten bijhouden. 
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-auto" data-tech="html php sql nextjs tailwind">
+                  <img src="img/sdgdashboard.png" class="card-img-top" alt="SDG Dashboard">
+                  <div class="card-body">
+                    <h5 class="card-title">SDG Dashboard</h5>
+                    <div class="label-badges mb-2">
+                      <span class="badge rounded-pill bg-danger">HTML</span>
+                      <span class="badge rounded-pill bg-secondary">Next.js</span>
+                      <span class="badge rounded-pill bg-dark">Tailwind CSS</span>
+                      <span class="badge rounded-pill bg-success">SQL</span>
+                    </div>
+                    <p class="card-text">Met de SDG Dashboard kunnen gebruikers de voortgang van de duurzame ontwikkelingsdoelstellingen volgen. 
 
                     </p>
                   </div>
@@ -112,6 +179,7 @@
       </main>
     </div>
   </div>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
